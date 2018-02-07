@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="Demo">
+</Property><Property Name="Archivo de la solución" Value="D:\Fuentes .net\Ventas Trabajadores\Samples\VC\Demo.sln">
+</Property><Property Name="Archivo de opciones de usuario" Value="D:\Fuentes .net\Ventas Trabajadores\Samples\VC\Demo.suo">
+</Property><Property Name="Date" Value="miércoles, 25 de marzo de 2015">
+</Property><Property Name="Time" Value="09:37 a.m.">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="Demo.sln" Description="La copia D:\Fuentes .net\Ventas Trabajadores\Samples\VC\Demo.sln.old del archivo se ha realizado correctamente">
+</Event><Event ErrorLevel="0" Project="" Source="Demo.suo" Description="La copia D:\Fuentes .net\Ventas Trabajadores\Samples\VC\Demo.suo.old del archivo se ha realizado correctamente">
+</Event><Event ErrorLevel="0" Project="Demo" Source="Demo.vcproj" Description="Converting project file 'D:\Fuentes .net\Ventas Trabajadores\Samples\VC\Demo.vcproj'.">
+</Event><Event ErrorLevel="1" Project="Demo" Source="Demo.vcproj" Description="VCWebServiceProxyGeneratorTool is no longer supported. The tool has been removed from your project settings.">
+</Event><Event ErrorLevel="1" Project="Demo" Source="Demo.vcproj" Description="MSB8012: $(TargetPath) ('D:\Fuentes .net\Ventas Trabajadores\Samples\VC\.\Release\Demo.exe') does not match the Linker's OutputFile property value '.\Release/Demo.exe' ('D:\Fuentes .net\Ventas Trabajadores\Samples\VC\Release/Demo.exe') in project configuration 'Release|Win32'. This may cause your project to build incorrectly. To correct this, please make sure that $(TargetPath) property value matches the value specified in %(Link.OutputFile).">
+</Event><Event ErrorLevel="1" Project="Demo" Source="Demo.vcproj" Description="MSB8012: $(TargetPath) ('D:\Fuentes .net\Ventas Trabajadores\Samples\VC\.\Debug\Demo.exe') does not match the Linker's OutputFile property value '.\Debug/Demo.exe' ('D:\Fuentes .net\Ventas Trabajadores\Samples\VC\Debug/Demo.exe') in project configuration 'Debug|Win32'. This may cause your project to build incorrectly. To correct this, please make sure that $(TargetPath) property value matches the value specified in %(Link.OutputFile).">
+</Event><Event ErrorLevel="0" Project="Demo" Source="Demo.vcproj" Description="Done converting to new project file 'D:\Fuentes .net\Ventas Trabajadores\Samples\VC\Demo.vcxproj'.">
+</Event><Event ErrorLevel="3" Project="Demo" Source="Demo.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="Demo.sln" Description="La solución se convirtió correctamente">
+</Event><Event ErrorLevel="3" Project="" Source="Demo.sln" Description="Converted">
+</Event></UpgradeLog>

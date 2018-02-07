@@ -1,0 +1,43 @@
+D:\Fuentes .net\Ventas Trabajadores\Ventas Trabajadores\bin\Debug\Ventas Trabajadores.exe
+D:\Fuentes .net\Ventas Trabajadores\Ventas Trabajadores\bin\Debug\Ventas Trabajadores.pdb
+D:\Fuentes .net\Ventas Trabajadores\Ventas Trabajadores\obj\Debug\Ventas_Trabajadores.frmMenuPrincipal.resources
+D:\Fuentes .net\Ventas Trabajadores\Ventas Trabajadores\obj\Debug\Ventas_Trabajadores.Properties.Resources.resources
+D:\Fuentes .net\Ventas Trabajadores\Ventas Trabajadores\obj\Debug\Ventas Trabajadores.exe.licenses
+D:\Fuentes .net\Ventas Trabajadores\Ventas Trabajadores\obj\Debug\Ventas Trabajadores.exe
+D:\Fuentes .net\Ventas Trabajadores\Ventas Trabajadores\obj\Debug\Ventas Trabajadores.pdb
+D:\Fuentes .net\Ventas Trabajadores\Ventas Trabajadores\obj\Debug\Ventas_Trabajadores.frmLogin.resources
+D:\Fuentes .net\Ventas Trabajadores\Ventas Trabajadores\bin\Debug\AccesoDatoGeneral.dll
+D:\Fuentes .net\Ventas Trabajadores\Ventas Trabajadores\bin\Debug\Aplicacion.dll
+D:\Fuentes .net\Ventas Trabajadores\Ventas Trabajadores\bin\Debug\AccesoDatoGeneral.pdb
+D:\Fuentes .net\Ventas Trabajadores\Ventas Trabajadores\bin\Debug\Aplicacion.pdb
+D:\Fuentes .net\Ventas Trabajadores\Ventas Trabajadores\bin\Debug\Ventas Trabajadores.exe.config
+D:\Fuentes .net\Ventas Trabajadores\Ventas Trabajadores\obj\Debug\Ventas_Trabajadores.frmPedido.resources
+D:\Fuentes .net\Ventas Trabajadores\Ventas Trabajadores\obj\Debug\PRUtilidades.Formas.frmCatalogo.resources
+D:\Fuentes .net\Ventas Trabajadores\Ventas Trabajadores\obj\Debug\Ventas Trabajadores.csproj.ResolveComReference.cache
+D:\Fuentes .net\Ventas Trabajadores\Ventas Trabajadores\obj\Debug\FingerprintNetSample.frmMain.resources
+D:\Fuentes .net\Ventas Trabajadores\Ventas Trabajadores\obj\Debug\FingerprintNetSample.formOption.resources
+D:\Fuentes .net\Ventas Trabajadores\Ventas Trabajadores\obj\Debug\PRUtilidades.Formas.frmAyuda.resources
+D:\Fuentes .net\Ventas Trabajadores\Ventas Trabajadores\obj\Debug\Interop.WMPLib.dll
+D:\Fuentes .net\Ventas Trabajadores\Ventas Trabajadores\bin\Debug\Interop.WMPLib.dll
+D:\Fuentes .net\Ventas Trabajadores\Ventas Trabajadores\bin\Debug\AxInterop.WMPLib.dll
+D:\Fuentes .net\Ventas Trabajadores\Ventas Trabajadores\obj\Debug\AxInterop.WMPLib.dll
+D:\Fuentes .net\Ventas Trabajadores\Ventas Trabajadores\obj\Debug\Ventas Trabajadores.csprojResolveAssemblyReference.cache
+D:\Fuentes .net\Ventas Trabajadores\Ventas Trabajadores\obj\Debug\Ventas Trabajadores.csproj.GenerateResource.Cache
+U:\Fuentes .net\Ventas Trabajadores\Ventas Trabajadores\obj\Debug\Ventas Trabajadores.csprojResolveAssemblyReference.cache
+U:\Fuentes .net\Ventas Trabajadores\Ventas Trabajadores\obj\Debug\Interop.WMPLib.dll
+U:\Fuentes .net\Ventas Trabajadores\Ventas Trabajadores\obj\Debug\AxInterop.WMPLib.dll
+U:\Fuentes .net\Ventas Trabajadores\Ventas Trabajadores\obj\Debug\Ventas Trabajadores.csproj.ResolveComReference.cache
+U:\Fuentes .net\Ventas Trabajadores\Ventas Trabajadores\obj\Debug\FingerprintNetSample.formOption.resources
+U:\Fuentes .net\Ventas Trabajadores\Ventas Trabajadores\obj\Debug\Ventas_Trabajadores.frmCaptaHuella.resources
+U:\Fuentes .net\Ventas Trabajadores\Ventas Trabajadores\obj\Debug\Ventas_Trabajadores.frmLogin.resources
+U:\Fuentes .net\Ventas Trabajadores\Ventas Trabajadores\obj\Debug\FingerprintNetSample.frmMain.resources
+U:\Fuentes .net\Ventas Trabajadores\Ventas Trabajadores\obj\Debug\Ventas_Trabajadores.frmMenuPrincipal.resources
+U:\Fuentes .net\Ventas Trabajadores\Ventas Trabajadores\obj\Debug\Ventas_Trabajadores.frmPedido.resources
+U:\Fuentes .net\Ventas Trabajadores\Ventas Trabajadores\obj\Debug\Ventas_Trabajadores.frmRegistroBiometrico.resources
+U:\Fuentes .net\Ventas Trabajadores\Ventas Trabajadores\obj\Debug\Ventas_Trabajadores.Properties.Resources.resources
+U:\Fuentes .net\Ventas Trabajadores\Ventas Trabajadores\obj\Debug\PRUtilidades.Formas.frmAyuda.resources
+U:\Fuentes .net\Ventas Trabajadores\Ventas Trabajadores\obj\Debug\PRUtilidades.Formas.frmCatalogo.resources
+U:\Fuentes .net\Ventas Trabajadores\Ventas Trabajadores\obj\Debug\Ventas Trabajadores.csproj.GenerateResource.Cache
+U:\Fuentes .net\Ventas Trabajadores\Ventas Trabajadores\obj\Debug\Ventas Trabajadores.exe.licenses
+U:\Fuentes .net\Ventas Trabajadores\Ventas Trabajadores\obj\Debug\Ventas Trabajadores.exe
+U:\Fuentes .net\Ventas Trabajadores\Ventas Trabajadores\obj\Debug\Ventas Trabajadores.pdb

@@ -1,0 +1,293 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{DD9B66F4-7D87-416F-93EC-5442CD0CB4E8}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Ventas_Trabajadores</RootNamespace>
+    <AssemblyName>Ventas Trabajadores</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AccesoDatoGeneral">
+      <HintPath>..\..\AdmUtilidades\AccesoDatoGeneral\AccesoDatoGeneral\bin\Debug\AccesoDatoGeneral.dll</HintPath>
+    </Reference>
+    <Reference Include="Aplicacion">
+      <HintPath>..\..\AdmUtilidades\Aplicacion\bin\Debug\Aplicacion.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Data.v13.2" />
+    <Reference Include="DevExpress.Printing.v13.2.Core" />
+    <Reference Include="DevExpress.Utils.v13.2" />
+    <Reference Include="DevExpress.XtraBars.v13.2" />
+    <Reference Include="DevExpress.Sparkline.v13.2.Core" />
+    <Reference Include="DevExpress.XtraEditors.v13.2" />
+    <Reference Include="DevExpress.XtraGrid.v13.2, Version=13.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraLayout.v13.2, Version=13.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="GriauleFingerprintLibrary">
+      <HintPath>C:\Windows\System32\GriauleFingerprintLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="Interop.GriauleAfisXLib">
+      <HintPath>C:\Windows\System32\Interop.GriauleAfisXLib.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="stdole, Version=7.0.3300.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>C:\Windows\System32\stdole.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Acceso a Dato\ADCalendario.cs" />
+    <Compile Include="Acceso a Dato\ADEmpresa.cs" />
+    <Compile Include="Acceso a Dato\ADUsuario.cs" />
+    <Compile Include="Acceso a Dato\ADEntorno.cs" />
+    <Compile Include="Acceso a Dato\ADPlanta.cs" />
+    <Compile Include="Acceso a Dato\ADAccesoGrupo.cs" />
+    <Compile Include="Acceso a Dato\ADOpcionSistema.cs" />
+    <Compile Include="Acceso a Dato\Personal\ADTrabajador.cs" />
+    <Compile Include="Acceso a Dato\ADTipoDocumento.cs" />
+    <Compile Include="Acceso a Dato\ADDeudorAcreedor.cs" />
+    <Compile Include="Acceso a Dato\Inventario\ADProducto.cs" />
+    <Compile Include="Acceso a Dato\ADEnroll.cs" />
+    <Compile Include="Acceso a Dato\Venta\ADDocumentoCliente.cs" />
+    <Compile Include="Acceso a Dato\Venta\ADPedido.cs" />
+    <Compile Include="Acceso a Dato\Inventario\ADExistenciaProducto.cs" />
+    <Compile Include="Acceso a Dato\ADImpresorasxAlmacen.cs" />
+    <Compile Include="ColorProgressBar.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ColorProgressBar.designer.cs">
+      <DependentUpon>ColorProgressBar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Consolidation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Consolidation.designer.cs">
+      <DependentUpon>Consolidation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Entidad\ENCalendario.cs" />
+    <Compile Include="Entidad\ENEnroll.cs" />
+    <Compile Include="Entidad\Venta\ENDocumentoCliente.cs" />
+    <Compile Include="formOption.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMain.Designer.cs">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Negocio\NGCalendario.cs" />
+    <Compile Include="Negocio\NGEnroll.cs" />
+    <Compile Include="Utilidades\BD\Dal\AccessDataAccessLayer.cs" />
+    <Compile Include="Utilidades\DalFactory.cs" />
+    <Compile Include="Utilidades\Formas\frmAyuda.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Utilidades\Formas\frmAyuda.designer.cs">
+      <DependentUpon>frmAyuda.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Utilidades\IGRDal.cs" />
+    <Compile Include="Entidad\ENImpresorasxAlmacen.cs" />
+    <Compile Include="Negocio\NGImpresorasxAlmacen.cs" />
+    <Compile Include="Utilidades\DBClass.cs" />
+    <Compile Include="Utilidades\Internas\RawPrinterHelper.cs" />
+    <Compile Include="Utilidades\Internas\Ticket.cs" />
+    <Compile Include="Utilidades\LookUpEdit.cs" />
+    <Compile Include="Utilidades\MostrarDatos.cs" />
+    <Compile Include="Utilidades\Personal\BuscarDatos.cs" />
+    <Compile Include="Utilidades\Procedimientos.cs" />
+    <Compile Include="Utilidades\CargarEntidad.cs" />
+    <Compile Include="Entidad\Inventario\ENExistenciaProducto.cs" />
+    <Compile Include="Entidad\ENDivisa.cs" />
+    <Compile Include="Entidad\Venta\ENPedidoItem.cs" />
+    <Compile Include="Entidad\Venta\ENPedido.cs" />
+    <Compile Include="Negocio\Venta\NGPedido.cs" />
+    <Compile Include="Utilidades\Formas\frmCatalogo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Utilidades\Formas\frmCatalogo.designer.cs">
+      <DependentUpon>frmCatalogo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Utilidades\Inventario\BuscarDatos.cs" />
+    <Compile Include="Entidad\Inventario\ENProducto.cs" />
+    <Compile Include="Entidad\ENDeudorAcreedor.cs" />
+    <Compile Include="Entidad\ENOpcionSistema.cs" />
+    <Compile Include="Entidad\ENAccesoGrupo.cs" />
+    <Compile Include="Entidad\ENPlanta.cs" />
+    <Compile Include="Entidad\ENEmpresa.cs" />
+    <Compile Include="Entidad\ENUsuario.cs" />
+    <Compile Include="Entidad\Personal\ENTrabajador.cs" />
+    <Compile Include="Entidad\ENTipoDocumento.cs" />
+    <Compile Include="frmPedido.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPedido.Designer.cs">
+      <DependentUpon>frmPedido.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Negocio\NGAccesoGrupo.cs" />
+    <Compile Include="Negocio\NGOpcionesSistema.cs" />
+    <Compile Include="Negocio\Personal\NGTrabajador.cs" />
+    <Compile Include="Negocio\NGTipoDocumento.cs" />
+    <Compile Include="Negocio\NGDeudorAcreedor.cs" />
+    <Compile Include="Negocio\Inventario\NGProducto.cs" />
+    <Compile Include="Utilidades\Ribbon.cs" />
+    <Compile Include="Utilidades\IBarra.cs" />
+    <Compile Include="Negocio\Entorno.cs" />
+    <Compile Include="Negocio\NGEmpresa.cs" />
+    <Compile Include="Negocio\NGUsuario.cs" />
+    <Compile Include="Negocio\NGPlanta.cs" />
+    <Compile Include="Utilidades\CargarCombo.cs" />
+    <Compile Include="Entidad\Entorno.cs" />
+    <Compile Include="Utilidades\Internas\LookUpEdit.cs" />
+    <Compile Include="Utilidades\FormatoPropio.cs" />
+    <Compile Include="frmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLogin.Designer.cs">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMenuPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMenuPrincipal.Designer.cs">
+      <DependentUpon>frmMenuPrincipal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Utilidades\Funciones.cs" />
+    <Compile Include="Utilidades\Ventas\BuscarDatos.cs" />
+    <Compile Include="Utilidades\XtraForm.cs" />
+    <Compile Include="VerifyDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VerifyDialog.designer.cs">
+      <DependentUpon>VerifyDialog.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="formOption.resx">
+      <DependentUpon>formOption.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLogin.resx">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMain.resx">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMenuPrincipal.resx">
+      <DependentUpon>frmMenuPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPedido.resx">
+      <DependentUpon>frmPedido.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Utilidades\Formas\frmAyuda.resx">
+      <DependentUpon>frmAyuda.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Utilidades\Formas\frmCatalogo.resx">
+      <DependentUpon>frmCatalogo.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ventas.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TD 32X32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Logo TD.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="AxWMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="WMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
